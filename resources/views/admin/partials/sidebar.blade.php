@@ -29,7 +29,7 @@
           </li>
           <li> --}}
             <a href="{{ route('anggaran.index') }}">
-              <i class="bi bi-circle"></i><span>Daftarn Anggaran</span>
+              <i class="bi bi-circle"></i><span>Daftar Anggaran</span>
             </a>
             {{-- <a href="#">
               <i class="bi bi-circle"></i><span>Input Anggaran</span>

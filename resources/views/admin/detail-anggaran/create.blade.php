@@ -69,19 +69,6 @@
             @enderror
         </div>
 
-        {{-- <div class="form-group">
-            <label for="status_pengajuan">Status Pengajuan</label>
-            <select name="status_pengajuan" id="status_pengajuan"
-                    class="form-control @error('status_pengajuan') is-invalid @enderror">
-                <option value="pending" {{ old('status_pengajuan') == 'pending' ? 'selected' : '' }}>Pending</option>
-                <option value="disetujui" {{ old('status_pengajuan') == 'disetujui' ? 'selected' : '' }}>Disetujui</option>
-                <option value="ditolak" {{ old('status_pengajuan') == 'ditolak' ? 'selected' : '' }}>Ditolak</option>
-            </select>
-            @error('status_pengajuan')
-                <div class="invalid-feedback">{{ $message }}</div>
-            @enderror
-        </div> --}}
-
         <div class="form-group mt-3">
             <button type="submit" class="btn btn-primary">Simpan</button>
             <a href="{{ route('detail-anggaran.index') }}" class="btn btn-secondary">Batal</a>

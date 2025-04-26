@@ -46,9 +46,9 @@
             </a>
           </li>
           <li> --}}
-            <a href="#">
+            <a href="{{ route('direktur.pengajuan.index') }}">
               <i class="bi bi-circle"></i><span>Status Pengajuan</span>
-            </a>
+            </href=>
           </li>
         </ul>
       </li><!-- End Barcode -->
