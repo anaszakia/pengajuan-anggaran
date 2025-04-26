@@ -19,7 +19,7 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-clipboard"></i><span>Anggaran</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bi bi-clipboard"></i><span>Pengajuan</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           {{-- <li>
@@ -29,7 +29,7 @@
           </li>
           <li> --}}
             <a href="{{ route('anggaran.index') }}">
-              <i class="bi bi-circle"></i><span>Daftar Anggaran</span>
+              <i class="bi bi-circle"></i><span>Daftar Pengajuan</span>
             </a>
             {{-- <a href="#">
               <i class="bi bi-circle"></i><span>Input Anggaran</span>

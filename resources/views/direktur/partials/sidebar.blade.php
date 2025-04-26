@@ -37,7 +37,7 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#audit-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-clipboard-check"></i><span>Lihat Pengajuan</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bi bi-clipboard-check"></i><span>Status Pengajuan</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="audit-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           {{-- <li>
@@ -47,7 +47,7 @@
           </li>
           <li> --}}
             <a href="{{ route('direktur.pengajuan.index') }}">
-              <i class="bi bi-circle"></i><span>Lihat Pengajuan</span>
+              <i class="bi bi-circle"></i><span>Status Pengajuan</span>
           </a>          
           </li>
         </ul>
