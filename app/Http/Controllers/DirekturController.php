@@ -43,7 +43,7 @@ class DirekturController extends Controller
         $detailAnggaran->status_pengajuan = 1;
         $detailAnggaran->save();
 
-        return redirect()->route('direktur.pengajuan.detail', $detailAnggaran->id_anggaran)
-                         ->with('success', 'Detail anggaran disetujui.');
+        return redirect()->route('direktur.pengajuan.index')
+                        ->with('success', 'Detail anggaran disetujui.');
     }
 }

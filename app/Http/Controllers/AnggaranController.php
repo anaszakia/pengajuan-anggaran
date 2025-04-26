@@ -26,7 +26,7 @@ class AnggaranController extends Controller
             'tanggal_pengajuan' => 'required|date',
             'divisi' => 'required|string|max:255',
             'plot_yang_dipakai' => 'required|string|max:255',
-            'ajuan_biaya' => 'required|numeric',
+            'akun_biaya' => 'required|string',
             'nama_karyawan' => 'required|string|max:255',
         ]);
 
@@ -69,7 +69,7 @@ class AnggaranController extends Controller
             'no_surat' => 'required|string|max:255',
             'divisi' => 'required|string|max:255',
             'plot_yang_dipakai' => 'required|string|max:255',
-            'ajuan_biaya' => 'required|numeric',
+            'akun_biaya' => 'required|string',
             'nama_karyawan' => 'required|string|max:255',
         ]);
 

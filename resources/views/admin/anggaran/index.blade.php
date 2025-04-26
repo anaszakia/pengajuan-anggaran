@@ -15,7 +15,7 @@
                             <th>No Surat</th>
                             <th>Divisi</th>
                             <th>Plot yang Dipakai</th>
-                            <th>Ajuan Biaya</th>
+                            <th>Akun Biaya</th>
                             <th>Nama Karyawan</th>
                             <th>Dibuat Oleh</th>
                             <th>Aksi</th>
@@ -29,7 +29,7 @@
                                 <td>{{ $anggaran->no_surat }}</td>
                                 <td>{{ $anggaran->divisi }}</td>
                                 <td>{{ $anggaran->plot_yang_dipakai }}</td>
-                                <td>Rp {{ number_format($anggaran->ajuan_biaya, 0, ',', '.') }}</td>
+                                <td>{{ $anggaran->akun_biaya}}</td>
                                 <td>{{ $anggaran->nama_karyawan }}</td>
                                 <td>{{ $anggaran->user->name ?? '-' }}</td>
                                 <td>

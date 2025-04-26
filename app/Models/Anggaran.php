@@ -16,7 +16,7 @@ class Anggaran extends Model
         'no_surat',
         'divisi',
         'plot_yang_dipakai',
-        'ajuan_biaya',
+        'akun_biaya',
         'nama_karyawan'
     ];
 

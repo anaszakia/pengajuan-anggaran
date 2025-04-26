@@ -59,7 +59,7 @@ Route::middleware(['auth', 'role:admin,admin super'])->prefix('detail-anggaran')
 Route::middleware(['auth', 'role:direktur,admin super'])->prefix('direktur')->name('direktur.')->group(function () {
     Route::get('/pengajuan-anggaran', [DirekturController::class, 'pengajuanAnggaran'])->name('pengajuan.index');
     Route::get('/pengajuan-anggaran/{id}', [DirekturController::class, 'showDetail'])->name('pengajuan.detail');
-    Route::get('/pengajuan-anggaran/approve/{id}', [DirekturController::class, 'accAnggaran'])->name('pengajuan.acc');
+    Route::post('/pengajuan-anggaran/approve/{id}', [DirekturController::class, 'accAnggaran'])->name('pengajuan.acc');
 });
 
 // Admin super - Akses khusus admin super dengan tampilan khusus
